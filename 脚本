@@ -1,0 +1,110 @@
+--fwYF小天破解源码圈钱狗卖十元白名单
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/renlua/block/main/UI/%E7%8C%8E%E6%88%B7%E5%BA%A7.lua')))()
+local Window = OrionLib:MakeWindow({Name = 'YFHUB', HidePremium = false, SaveConfig = true, ConfigFolder = 'OrionTest', IntroText = 'YFHUB BY YF'})
+OrionLib:MakeNotification({
+    Name = '尊敬的用户：',
+    Content = '感谢您支持YF！',
+    Image = 'rbxassetid://4483345998',
+    Time = 5
+})
+local Home = Window:MakeTab({
+    Name = '主页',
+    Icon = 'rbxassetid://7733960981',
+    PremiumOnly = false
+})
+local jyrs = Window:MakeTab({
+    Name = '监狱人生',
+    Icon = 'rbxassetid://7733771891',
+    PremiumOnly = false
+})
+local xsdsd = Window:MakeTab({
+    Name = '现实的深度',
+    Icon = 'rbxassetid://7733771891',
+    PremiumOnly = false
+})
+local race = Window:MakeTab({
+    Name = 'Race Click',
+    Icon = 'rbxassetid://7733771891',
+    PremiumOnly = false
+})
+Home:AddParagraph('YF制作','官方QQ群156778698')
+Home:AddDropdown({
+    Name = '脚本',
+    Default = '',
+    Options = {'俄亥俄州','吸人','命令行','追踪','DEX'},
+    Callback = function(Value)
+    if Value == '俄亥俄州' then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/renlua/block/main/UI/%E7%8C%8E%E6%88%B7%E5%BA%A7.lua')))()
+local Window = OrionLib:MakeWindow({Name = 'YFHUB|OHIO', HidePremium = false, SaveConfig = true, ConfigFolder = 'OrionTest', IntroText = 'YFHUB|OHIO'})
+-- game:GetService('Players').LocalPlayer.PlayerGui.Hotbar.Enabled = true
+-- -- game:GetService('Players').LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame.Visible = true
+-- game:GetService('Players').LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame.Position = UDim2.new(0, 0, 0, 40)
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.Shadow.Visible = false
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].Shadow.Visible = false
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.Visible = true
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.TextLabel.Text = 'OHIO.YF'
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].Visible = true
+-- game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].TextLabel.Text = '双倍现金 永久有效'
+-- game:GetService('Workspace').BlackMarket.Dealer.Dealer.ProximityPrompt.HoldDuration = 0
+-- game:GetService('Workspace').BlackMarket.BlackMarketBillboard.TopLabel.Text = 'YF黑市'
+-- game:GetService('Workspace').BlackMarket.BlackMarketBillboard.BottomLabel.Text = '向YF出售物品以获得钱!'
+-- game:GetService('Workspace').OhioSign.Screen.SurfaceGui.Frame.Population.Text = 'YF祝您玩的愉快'
+local Teams = game:GetService('Teams')
+local newTeam = Instance.new('Team')
+newTeam.Name = 'DevvGames'
+newTeam.Parent = Teams
+local player = game:GetService('Players').LocalPlayer
+player.Team = newTeam
+local UserInputService = game:GetService('UserInputService')
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if input.KeyCode == Enum.KeyCode.Z then
+        game:GetService('Players').LocalPlayer.PlayerGui.Backpack.Holder.Locker.Visible = true
+    end
+end)
+local Fram = Window:MakeTab({
+    Name = '资源类',
+    Icon = 'rbxassetid://7733771891',
+    PremiumOnly = false
+})
+local Cheat = Window:MakeTab({
+    Name = '修改类',
+    Icon = 'rbxassetid://7733771891',
+    PremiumOnly = false
+})
+Fram:AddDropdown({
+    Name = '瞬移',
+    Default = '',
+    Options = {'银行','珠宝店','沙滩','武器店（撬锁）','武士刀','射线枪','加特林','锯掉','沙漠之鹰','警察局（M4A1）','AUG','军事基地（军甲）'},
+    Callback = function(Value)
+    local epoh2 = game:GetService('Players')
+    local epoh3 = epoh2.LocalPlayer.Character.HumanoidRootPart
+    if Value == '银行' then
+        local epoh1 = CFrame.new(1055.94153, 15.11950874, -344.58374)
+        epoh3.CFrame = epoh1
+    elseif Value == '珠宝店' then
+        local epoh1 = CFrame.new(1719.02637, 14.2831011, -714.293091)
+        epoh3.CFrame = epoh1
+    elseif Value == '沙滩' then
+        local epoh1 = CFrame.new(998.4656372070312, 15, 395.9789733886719)
+        epoh3.CFrame = epoh1
+    elseif Value == '武器店（撬锁）' then
+        local epoh1 = CFrame.new(660.5284423828125, 6.4081127643585205, -716.489990234375)
+        epoh3.CFrame = epoh1
+    elseif Value == '武士刀' then
+        local epoh1 = CFrame.new(175.191, 13.937, -132.69)
+        epoh3.CFrame = epoh1
+    elseif Value == '射线枪' then
+        local epoh1 = CFrame.new(148.685471, -90, -529.280945)
+        epoh3.CFrame = epoh1
+    elseif Value == '加特林' then
+        local epoh1 = CFrame.new(364.97076416015625, 0.764974117279053, -1447.3302001953125)
+        epoh3.CFrame = epoh1
+    elseif Value == '锯掉' then
+        local epoh1 = CFrame.new(1179.98523,40,-436.812683)
+        epoh3.CFrame = epoh1
+    elseif Value == '沙漠之鹰' then
+        local epoh1 = CFrame.new(363.341461, 26.0798492, -259.681396)
+        epoh3.CFrame = epoh1
+    elseif Value == '警察局（M4A1）' then
+        local epoh1 = CFrame.new(603.4676513671875,25.662811279296875,-922.0442504882812)
+        epoh3.CFrame
